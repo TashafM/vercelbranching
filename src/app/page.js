@@ -1,8 +1,9 @@
 import React from 'react'
 
 const Home = () => {
+
   return (
-    <div>Home: Prod</div>
+    <div>Home : {process.env.NAME}</div>
   )
 }
 
